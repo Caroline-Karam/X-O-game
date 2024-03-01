@@ -1,0 +1,40 @@
+.vedio{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100px;
+  max-height: 100vh;
+  z-index: -1;
+  object-fit: cover;  
+}
+.game{
+    width: 300px;
+    text-align: center;
+    font-family:system-ui;
+    font-style: bold;
+    color: aliceblue;
+    margin: auto;
+    font-weight: 500;
+    position: relative;
+
+}
+.title{
+    background-color: blueviolet;
+    padding: 5px 0;
+    margin: 5px 0;
+    font-size: 35px;
+    font-style: bold;
+}
+.demo{
+    width: 90px;
+    height: 90px;
+    background-color: rgba(190, 120, 255, 0.937);
+    float: left;
+    margin: 5px;
+    font-size: 50px;
+    /* margin-top: 10px; */
+}
+.demo:hover{
+    background-color:darkred;
+    cursor: pointer;
+}
